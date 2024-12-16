@@ -1,0 +1,19 @@
+/* Center the container (height 100vh ensures it takes full height of viewport) */
+.headshot-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    height: 100vh; /* Full height of the screen */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove any margin */
+}
+
+/* Make the image a circle and fit it properly */
+.headshot {
+    width: 200px;  /* Set size */
+    height: 200px; /* Set size */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Crop the image to fit the circle */
+    border: 4px solid #fff; /* Add a white border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+}

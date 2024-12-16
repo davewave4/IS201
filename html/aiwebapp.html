@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Game</title>
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div class="container-fluid px-4 px-lg-5">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav py-4 py-lg-0">
+                    <!--Change these links like "about.html" to the links that will take you to the right thing-->
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Me</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Got Game?</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="scratch.html">Goat</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Don't Crash Me, Bro</h1>
+    <div id="gameContainer">
+        <div id="road">
+            <div id="playerCar"></div>
+            <div class="obstacle" id="obstacle1"></div>
+            <div class="obstacle" id="obstacle2"></div>
+        </div>
+    </div>
+    <div id="score">Score: 0</div>
+    <button id="startButton" onclick="startGame()">Start Game</button>
+    <script src="../js/game.js"></script>
+</body>
+</html>

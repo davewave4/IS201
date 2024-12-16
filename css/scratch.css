@@ -1,0 +1,131 @@
+/* Navbar styles */
+.navbar {
+    background-color: #ffffff; /* Clean background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 0.5rem 1rem; /* Add padding for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Larger font for the brand */
+    font-weight: bold;
+    color: #333; /* Darker color for visibility */
+}
+
+.navbar-brand:hover {
+    color: #007bff; /* Subtle hover effect for the brand */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: left;
+    gap: 1rem; /* Space between items */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #555; /* Neutral link color */
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Clickable area */
+    border-radius: 4px; /* Slightly rounded edges */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #fff; /* White text on active or hover */
+    background-color: #007bff; /* Blue background for hover */
+}
+
+.navbar-toggler {
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.navbar-toggler-icon {
+    background-color: #555;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px; /* Restrict max width for better readability */
+    margin: auto; /* Center align */
+}
+
+body { background-color: #fbdd32; 
+    /* Light blue background color */ 
+}
+
+/* Title styles */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0e0303;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.5rem; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Line height for better spacing */
+    color: #0b0101;
+}
+
+ol {
+    font-size: 1.5rem;
+    color: #180701;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add some padding to sections */
+.section {
+    padding: 2rem 0;
+}
+
+/* Video and Tableau Section */
+.video-section,
+.tableau-section {
+    margin-bottom: 2rem;
+}
+
+.tableauPlaceholder,
+iframe {
+    width: 100%;
+    border: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
